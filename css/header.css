@@ -1,0 +1,145 @@
+
+
+
+.header {
+    display: flex;
+    background-image: linear-gradient(rgba(5, 150, 5, 0.637), white);
+    max-width: 100% - 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+@media(max-width: 361px){
+    .header{
+        max-width: 100%;
+        padding: 10px;
+        margin: 5px;
+
+    }
+}
+
+.header__first {
+    display: flex;
+    width: 1400px;
+
+}
+
+.header__text {
+    display: flex;
+    text-transform: uppercase;
+    color: rgb(6, 70, 6);
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 33%;
+    font-weight: bold;
+}
+
+@media(max-width: 782px){
+    .header__text{
+    }
+}
+
+@media(max-width: 520px){
+    .header__text{
+        font-size: 20px;
+    }
+}
+
+.logo {
+    margin: 0;
+    display: flex;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 4px 4px #ccc;
+    font-size: 80px ;
+    align-items: center;
+    justify-content: left;
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+@media(max-width: 768px){
+    .logo{
+        margin-right: 5px;
+    }
+}
+
+@media(max-width: 520px){
+    .logo{
+        font-size: 40px;
+    }
+}
+
+
+
+.nav {
+
+    display: flex;
+    width: 1400px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 1300px) {
+    .menu {
+        flex-basis:100%;
+    }
+}
+
+.menu__item
+{
+    display: flex;
+    margin-left: 20px;
+    border: solid 0px black;
+    box-shadow:2px 2px 2px 2px #ccc;
+    padding: 5px;
+    background-color: rgba(3, 31, 3, 0.534);
+    color: #9ff321;
+}
+
+.menu__item:hover
+{
+    background-color: #000000c5;
+}
+
+@media(max-width: 520px){
+    .menu__item{
+        font-size: 12px;
+    }
+}
+
+.empty {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+@media(max-width: 736px) {
+    .empty {
+        flex-basis:0%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

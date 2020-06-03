@@ -1,0 +1,28 @@
+.main {
+    text-align: center;
+    font-weight: bold;
+    background-image: url("https://c1.wallpaperflare.com/preview/367/370/553/rough-wall-background-white.jpg");
+    background-image: url("https://storage.needpix.com/rsynced_images/soft-white-wall-pattern.jpg");
+    background-image: url("https://live.staticflickr.com/8151/7192320784_9880269589_z.jpg");
+    background-image: url("https://c1.wallpaperflare.com/preview/300/676/863/white-texture-paint-thumbnail.jpg");
+    background-size: cover;
+}
+
+.h2 {
+    background-color: rgba(0, 128, 0, 0.267);
+    text-align: center;
+    font-weight: bold;
+}
+
+@media(max-width: 800px){
+    .h2{
+        font-size: 16px;
+
+    }
+}
+.map {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    border: none;
+}
