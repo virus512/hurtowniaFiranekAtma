@@ -1,5 +1,6 @@
 .main {
-    text-align: center;
+
+
     font-weight: bold;
     background-image: url("https://c1.wallpaperflare.com/preview/367/370/553/rough-wall-background-white.jpg");
     background-image: url("https://storage.needpix.com/rsynced_images/soft-white-wall-pattern.jpg");
@@ -26,3 +27,18 @@
     height: 50vh;
     border: none;
 }
+
+
+.gallery {
+ list-style: none;
+ padding-left: 0;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+}
+
+.gallery_image {
+ width: 100%;
+}
+
+
