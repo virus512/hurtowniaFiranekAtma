@@ -76,6 +76,7 @@
     padding: 20px;
     position: sticky;
     top: 0;
+    background-color: rgba(255, 255, 255, 0.514);
 }
 
 
@@ -102,14 +103,14 @@
     border: solid 0px black;
     box-shadow:2px 2px 2px 2px #ccc;
     padding: 5px;
-    background-color: #031f0388;
+    background-color: #031f03bd;
     color: #9ff321;
     font-size: 15px;
 }
 
 .menu__item:hover
 {
-    background-color: #000000c5;
+    background-color: #000000ef;
 }
 
 @media(max-width: 520px){
